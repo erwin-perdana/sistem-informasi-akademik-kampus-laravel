@@ -18,41 +18,7 @@ class NilaiController extends Controller
      */
     public function index(Request $request)
     {
-        // // ambil data mahasiswa berdasarkan session
-        // $mahasiswa = $request->session()->get('mahasiswa');
-        // // ambil tahun akademik yg aktif
-        // $ta = TahunAkademik::where('status', 1)->first();
-        // // ambil data absen mahasiswa
-        // $nilais = Nilai::where('id_mahasiswa', $mahasiswa->id)->where('id_ta', $ta->id)->get();
-        // $totalSks = 0;
-        // $totalBobot = 0;
-        // foreach($nilais as $index=>$nilai){
-        //     // jumlahkan sks
-        //     $totalSks += $nilai->schedule->matkul->sks;
-        //     // hitung bobot
-        //     if($nilai->nilai_huruf == "A"){
-        //         $angka = 4;
-        //     }elseif($nilai->nilai_huruf == "B"){
-        //         $angka = 3;
-        //     }elseif($nilai->nilai_huruf == "C"){
-        //         $angka = 2;
-        //     }elseif($nilai->nilai_huruf == "D"){
-        //         $angka = 1;
-        //     }else{
-        //         $angka = 0;
-        //     }
-        //     $bobot = $angka * $nilai->schedule->matkul->sks;
-        //     // jumlahkan semua bobot
-        //     $totalBobot += $bobot;
-        // }
-        // // dd($bobot);
-        // return view('user.nilai.index')->with([
-        //     'ta' => $ta,
-        //     'nilais' => $nilais,
-        //     'totalSks' => $totalSks,
-        //     'totalBobot' => $totalBobot,
-        //     'mahasiswa' => $mahasiswa,
-        // ]);
+        
     }
 
     /**
