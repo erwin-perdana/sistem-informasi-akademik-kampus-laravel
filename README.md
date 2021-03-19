@@ -29,4 +29,39 @@ password:11111111
 
 ## How to Install
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. **Clone Repository**
+
+```bash
+git clone https://github.com/erwin-perdana/sistem-informasi-akademik-kampus-laravel.git
+go to folder
+composer install
+npm install
+cp .env.example .env
+```
+
+2. **Buka `.env` lalu ubah baris berikut sesuai dengan databasemu yang ingin dipakai**
+
+```bash
+DB_PORT=3306
+DB_DATABASE=siakd
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+3. **Instalasi website**
+
+```bash
+php artisan key:generate
+php artisan migrate --seed
+```
+
+4. **Jalankan website**
+
+```bash
+php artisan serve
+```
+
+## Author
+
+- E-mail : winp2807@gmail.com
+- LinkedIn : <a href="https://www.linkedin.com/in/erwin-perdana-81580b201"> Erwin Perdana</a>
