@@ -1,0 +1,144 @@
+/* common css */
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    background-color:rgba(128, 128, 128, .5);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+/* jumbotron | login */
+#jumbotron{
+    height: 660px;
+    width: 100%;
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 15%;
+}
+#jumbotron::after{
+    content: "";
+    background: rgb(28,83,121);
+    background: linear-gradient(90deg, rgba(28,83,121,0.8) 0%, rgba(24,109,131,0.8015405991498161) 50%, rgba(32,154,165,0.8) 100%);
+    display: block;
+	background-size: cover;
+	width: 100%;
+	height: 101%;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+#jumbotron p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+#jumbotron hr {
+    border: 1px solid white;
+    position: relative;
+    z-index: 99;
+}
+#jumbotron .login {
+    position: relative;
+    z-index: 99;
+    background-color:white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 40px;
+}
+#jumbotron h3 {
+    position: relative;
+    z-index: 99;
+}
+/* navbar */
+.navbar-brand{
+    margin-right: 20px;
+}
+.logout{
+    margin-left: 930px;
+}
+/* profile */
+#profile{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+#profile .table{
+    margin-bottom: 0px;
+}
+#profile .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px;
+}
+/* mahasiswa */
+#mahasiswa{
+    margin-top: 3%;
+    width: 100%;
+}
+#mahasiswa .photo{
+    width: 180px;
+    height: 180px;
+}
+#mahasiswa .table td{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 0px;
+}
+#mahasiswa .bio{
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+#mahasiswa .daftarKrs{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* #mahasiswa .daftarKrs .table thead th {
+    border-bottom: 0px solid #dee2e6;
+}
+#mahasiswa .daftarKrs .table th, .table td {
+    border-top: 0px solid #dee2e6;
+} */
+/* absen */
+#absen{
+    margin-top: 3%;
+}
+#absen .tg  {border-collapse:collapse;border-spacing:0;}
+#absen .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:10px 5px;word-break:normal;}
+#absen .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+#absen .tg .tg-6h95{background-color:#1c5379;border-color:inherit;color:#ffffff;text-align:center;vertical-align:middle}
+#absen .tg .tg-k7qf{background-color:#1c5379;border-color:inherit;color:#ffffff;text-align:center;vertical-align:top}
+#absen .tg .tg-3xi5{background-color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}
+/* nilai */
+.nilai{
+    width: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
