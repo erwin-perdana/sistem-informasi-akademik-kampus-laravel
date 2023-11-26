@@ -64,4 +64,4 @@ php artisan serve
 ## Author
 
 - E-mail : winp2807@gmail.com
-- LinkedIn : <a href="https://www.linkedin.com/in/erwin-perdana-81580b201"> Erwin Perdana</a>
+- LinkedIn : <a href="https://www.linkedin.com/in/erwin-perdana28"> Erwin Perdana</a>
